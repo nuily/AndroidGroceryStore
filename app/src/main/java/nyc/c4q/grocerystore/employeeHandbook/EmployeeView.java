@@ -20,7 +20,7 @@ public class EmployeeView extends AppCompatActivity {
         String employee = getIntent().getStringExtra(EMPLOYEE_NAME);
         if(employee != null){
             switch (employee) {
-                case "HuiLily":
+                case "Lily":
                     showHuiLily();
                     break;
             }
